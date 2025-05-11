@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectralsc/v14/KtkpALCRZonmalTgyPmRfvWi.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spectralsc/v14/Ktk0ALCRZonmalTgyPmRfs0exkTX.ttf) format('truetype');
+}

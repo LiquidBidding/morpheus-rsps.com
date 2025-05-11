@@ -1,0 +1,242 @@
+html, body {
+    background:url('../img/background.png') no-repeat top center #13171b;
+    color:#80858b;
+    font-family:'Poppins', sans-serif;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.65); 
+}
+
+a {
+    font-weight:700;
+    color:#fff;
+    transition:.2s all;
+}
+
+a:hover {
+    color:#2840cd;
+    text-decoration: none;
+}
+
+h1 {
+    color:#fff;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+h2 {
+    font-family:'Spectral SC', serif;
+    color:#2840cd;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:62px;
+    text-shadow:0 0 24px rgba(41,45,196, 0.75);
+}
+h22 {
+    font-family:'Spectral SC', serif;
+    color:#2840cd;
+     margin:0 auto;
+    display:block;
+    position:relative;
+    text-align:center;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:62px;
+    text-shadow:0 0 24px rgba(41,45,196, 0.75);
+}
+
+h3 {
+    font-family:'Spectral SC', serif;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#2840cd;
+    text-shadow:0 0 24px rgba(41,45,196, 0.75);
+    margin-bottom:20px;
+}
+
+h4 {
+    font-family:'Spectral SC', serif;
+    font-weight:400;
+    color: #2840cd;
+}
+
+p {
+    font-size:14px;
+    line-height:30px;
+}
+
+#header__topbar {
+    background:rgba(0,0,0,0.5);
+    height:55px;
+    padding:16px 10%;
+}
+
+#header__topbar p {
+    color:#efefef;
+    font-weight:200;
+    font-size:14px;
+}
+
+.players-online {
+    font-weight:700;
+    color:#efefef;
+}
+
+nav {
+    background-image:url('../img/nav.png');
+    background-repeat:repeat-x;
+    height:84px;
+    box-shadow:0 1px 0 rgba(255,255,255,0.1) inset, 0 5px 9px rgba(0,0,0,0.6);
+}
+
+nav ul {
+    padding-inline-start: 0;
+}
+
+#nav__left, #logo, #nav__right {
+    list-style:none;
+    display:inline-flex;
+}
+
+#nav__right {
+    float:right;
+}
+
+#logo {
+    margin:0 auto;
+    display:block;
+    position:relative;
+    text-align:center;
+    top:-170px;
+    width:250px;
+    opacity:0.7;
+    transition:.2s all;
+}
+
+#logo:hover {
+    opacity:2;
+}
+
+#nav__left a, #nav__right a {
+    color:#fff;
+    font-weight:700;
+    padding:30px 60px;
+    text-transform: uppercase;
+}
+
+#nav__left a:hover, #nav__right a:hover {
+    box-shadow: 0 -3px 0 #172eb3 inset;
+    padding-top:25px;
+    padding-bottom:35px;
+}
+
+#header__content {
+    margin:100px auto 70px auto;
+    text-align:center;
+}
+
+#header__content #buttons {
+    display:inline-flex;
+}
+
+.btn__orange {
+     height:40px;
+    width:150px;
+    align-items:center;
+    padding:5px;
+    color:#fff;
+    font-weight:bold;
+    background-color:rgba(32,35,162,0.1);
+    border-radius:10px;
+    border:3px solid #172eb3;
+    transition:.2s all;
+    margin:0 auto;
+    position:relative;
+    top:5px;
+    right:center;
+    
+}
+
+.btn__orange:hover {
+    background-color:rgba(41,45,196,0.3);
+}
+
+.btn__white {
+    padding:10px 40px;
+    color:#fff;
+    font-weight:bold;
+    background-color:rgba(255,255,255,0.1);
+    border-radius:10px;
+    border:3px solid #fff;
+    transition:.2s all;
+    margin:10px 20px;
+}
+
+.btn__white:hover {
+    background-color:rgba(255,255,255,0.3);
+}
+
+.btn__blurple {
+    padding:10px 40px;
+    color:#fff;
+    font-weight:bold;
+    background-color:rgba(99,121,213,0.1);
+    border-radius:10px;
+    border:3px solid #6379d5;
+    transition:.2s all;
+    display:inline-block;
+}
+
+.btn__blurple:hover {
+    background-color:rgba(91,121,213,0.3);
+}
+
+.btn__orange, .btn__white, .btn__blurple {
+    box-shadow:0 3px 7px rgba(0,0,0,0.5);
+}
+
+.section {
+    padding:55px 10%;
+}
+
+.content, .support, .security {
+    text-align:center;
+    padding:20px 15px;
+}
+
+#about, #discord {
+    background-image:url('../img/section.png'), url('../img/section-bg.png');
+    background-repeat:no-repeat, repeat;
+    background-position:top left, center;
+    box-shadow:0 0 17px rgba(0,0,0,0.3);
+}
+
+#features {
+    margin-top:50px;
+}
+
+#about .col {
+    background:#191b1e;
+    box-shadow:0 0 7px rgba(0,0,0,0.35) inset;
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:5px;
+}
+
+.security {
+    margin:0 15px;
+}
+
+.video-details {
+    text-align:right;
+    padding:105px 20px;
+}
+
+.discord-details {
+    padding:80px 20px;
+}
+
+.copyright {
+    
+    text-align:center;
+    font-size: 14px;
+    padding: 20px 10%;
+    text-transform: uppercase;
+}
